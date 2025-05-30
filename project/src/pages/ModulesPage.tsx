@@ -23,7 +23,7 @@ const ModulesPage: React.FC = () => {
                   <div>
                     <h2 className="text-2xl font-bold mb-4">HTML5 & CSS3 - Front-End</h2>
                     <p className="text-gray-600 mb-6">Maîtrisez les fondamentaux du développement front-end pour créer des interfaces web modernes et responsives.</p>
-                    
+
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-xl font-semibold mb-3">HTML5</h3>
@@ -46,7 +46,7 @@ const ModulesPage: React.FC = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       <div>
                         <h3 className="text-xl font-semibold mb-3">CSS3</h3>
                         <ul className="space-y-2">
@@ -69,10 +69,10 @@ const ModulesPage: React.FC = () => {
                         </ul>
                       </div>
                     </div>
-                    
+
                     <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
                       <h4 className="font-semibold mb-2">Projet pratique</h4>
-                      <p>Intégration du site "Restaurant Jadoo" - <a href="https://jadoo.store/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">https://jadoo.store/</a></p>
+                      <p>Intégration du site "Restaurant Jadoo" - <a href="https://jadoo.store/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-800">https://jadoo.store/</a></p>
                     </div>
                   </div>
                 </div>
@@ -83,39 +83,39 @@ const ModulesPage: React.FC = () => {
           {/* PHP & Symphony */}
           <section id="php-symphony" className="scroll-mt-24">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <div className="h-2 bg-gradient-to-r from-blue-400 to-indigo-500"></div>
+              <div className="h-2 bg-gradient-to-r from-green-400 to-indigo-500"></div>
               <div className="p-6 md:p-8">
                 <div className="flex items-start">
-                  <div className="bg-blue-100 p-3 rounded-lg mr-4">
-                    <Server size={32} className="text-blue-500" />
+                  <div className="bg-green-100 p-3 rounded-lg mr-4">
+                    <Server size={32} className="text-green-500" />
                   </div>
                   <div>
                     <h2 className="text-2xl font-bold mb-4">PHP & Symphony - Back-End</h2>
                     <p className="text-gray-600 mb-6">Développez des applications web dynamiques et robustes avec PHP et le framework Symphony.</p>
-                    
+
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-xl font-semibold mb-3">PHP</h3>
                         <ul className="space-y-2">
                           <li className="flex items-start">
-                            <span className="bg-blue-100 text-blue-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">1</span>
+                            <span className="bg-green-100 text-green-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">1</span>
                             <span>Syntaxe et concepts fondamentaux</span>
                           </li>
                           <li className="flex items-start">
-                            <span className="bg-blue-100 text-blue-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">2</span>
+                            <span className="bg-green-100 text-green-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">2</span>
                             <span>Programmation orientée objet en PHP</span>
                           </li>
                           <li className="flex items-start">
-                            <span className="bg-blue-100 text-blue-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">3</span>
+                            <span className="bg-green-100 text-green-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">3</span>
                             <span>Gestion des formulaires et validation</span>
                           </li>
                           <li className="flex items-start">
-                            <span className="bg-blue-100 text-blue-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">4</span>
+                            <span className="bg-green-100 text-green-700 rounded-full w-6 h-6 flex items-center justify-center mr-2 mt-0.5 flex-shrink-0">4</span>
                             <span>Sécurité des applications PHP</span>
                           </li>
                         </ul>
                       </div>
-                      
+
                       <div>
                         <h3 className="text-xl font-semibold mb-3">Symphony</h3>
                         <ul className="space-y-2">
@@ -156,7 +156,7 @@ const ModulesPage: React.FC = () => {
                   <div>
                     <h2 className="text-2xl font-bold mb-4">Base de données relationnelles</h2>
                     <p className="text-gray-600 mb-6">Maîtrisez les concepts de bases de données relationnelles et le langage SQL pour stocker et gérer efficacement vos données.</p>
-                    
+
                     <div>
                       <h3 className="text-xl font-semibold mb-3">SQL</h3>
                       <ul className="space-y-2 md:grid md:grid-cols-2 md:gap-4 md:space-y-0">
@@ -204,7 +204,7 @@ const ModulesPage: React.FC = () => {
                   <div>
                     <h2 className="text-2xl font-bold mb-4">Cloud computing & Cybersécurité</h2>
                     <p className="text-gray-600 mb-6">Apprenez à déployer vos applications dans le cloud et à protéger vos systèmes contre les cyberattaques.</p>
-                    
+
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-xl font-semibold mb-3">Cloud Computing</h3>
@@ -223,7 +223,7 @@ const ModulesPage: React.FC = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       <div>
                         <h3 className="text-xl font-semibold mb-3">Cybersécurité</h3>
                         <ul className="space-y-2">
@@ -260,7 +260,7 @@ const ModulesPage: React.FC = () => {
                   <div>
                     <h2 className="text-2xl font-bold mb-4">UML & Développement Mobile</h2>
                     <p className="text-gray-600 mb-6">Concevez et modélisez des applications avec UML et développez des applications mobiles natives.</p>
-                    
+
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-xl font-semibold mb-3">UML & Méthode AGILE</h3>
@@ -279,7 +279,7 @@ const ModulesPage: React.FC = () => {
                           </li>
                         </ul>
                       </div>
-                      
+
                       <div>
                         <h3 className="text-xl font-semibold mb-3">Développement Mobile</h3>
                         <ul className="space-y-2">
@@ -320,13 +320,13 @@ const ModulesPage: React.FC = () => {
                   <div>
                     <h2 className="text-2xl font-bold mb-4">Développement d'Application Web & Mobile</h2>
                     <p className="text-gray-600 mb-6">Mettez en pratique toutes vos compétences dans un projet complet de développement web et mobile.</p>
-                    
+
                     <div className="p-4 bg-gray-50 rounded-lg border border-gray-200">
                       <h4 className="font-semibold mb-2">Projet Jadoo</h4>
-                      <p className="mb-2">Reproduction du site d'un restaurant japonais : <a href="https://jadoo.store/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">https://jadoo.store/</a></p>
+                      <p className="mb-2">Reproduction du site d'un restaurant japonais : <a href="https://jadoo.store/" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-800">https://jadoo.store/</a></p>
                       <p>Créez un site responsive présentant la cuisine gastronomique du Chef Junichi IIDA, fonctionnant sur tous les navigateurs.</p>
                     </div>
-                    
+
                     <div className="mt-6">
                       <h3 className="text-xl font-semibold mb-3">Compétences développées</h3>
                       <ul className="grid md:grid-cols-2 gap-3">

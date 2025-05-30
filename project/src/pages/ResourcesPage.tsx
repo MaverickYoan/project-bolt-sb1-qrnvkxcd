@@ -46,7 +46,7 @@ const ResourcesPage: React.FC = () => {
     },
     {
       category: "Tutoriels et Documentation",
-      icon: <Code size={24} className="text-blue-500" />,
+      icon: <Code size={24} className="text-green-500" />,
       items: [
         {
           title: "Grafikart",
@@ -133,13 +133,13 @@ const ResourcesPage: React.FC = () => {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   {category.items.map((resource, rIndex) => (
-                    <div key={rIndex} className="border border-gray-200 rounded-lg p-4 transition-all hover:shadow-md hover:border-blue-200">
+                    <div key={rIndex} className="border border-gray-200 rounded-lg p-4 transition-all hover:shadow-md hover:border-green-200">
                       <h3 className="font-semibold text-lg mb-2">
-                        <a 
-                          href={resource.url} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="text-blue-600 hover:text-blue-800 flex items-center"
+                        <a
+                          href={resource.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-green-600 hover:text-green-800 flex items-center"
                         >
                           {resource.title}
                           <ExternalLink size={16} className="ml-1" />
@@ -152,15 +152,15 @@ const ResourcesPage: React.FC = () => {
               </div>
             </div>
           ))}
-          
-          <div className="bg-blue-50 rounded-lg shadow-sm p-6">
-            <h3 className="text-xl font-semibold mb-4 text-blue-800 flex items-center">
+
+          <div className="bg-green-50 rounded-lg shadow-sm p-6">
+            <h3 className="text-xl font-semibold mb-4 text-green-800 flex items-center">
               <Database size={20} className="mr-2" />
               Astuces et raccourcis utiles
             </h3>
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <h4 className="font-medium text-blue-700 mb-2">Raccourcis clavier pour caractères spéciaux</h4>
+                <h4 className="font-medium text-green-700 mb-2">Raccourcis clavier pour caractères spéciaux</h4>
                 <ul className="space-y-1 text-gray-700">
                   <li>É = Alt + 144</li>
                   <li>È = Alt + 212</li>
@@ -170,7 +170,7 @@ const ResourcesPage: React.FC = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-blue-700 mb-2">Astuces VS Code</h4>
+                <h4 className="font-medium text-green-700 mb-2">Astuces VS Code</h4>
                 <ul className="space-y-1 text-gray-700">
                   <li>! + espace = créer un template HTML</li>
                   <li>Extension LiveServer pour prévisualiser</li>

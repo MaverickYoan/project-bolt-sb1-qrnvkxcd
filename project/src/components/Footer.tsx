@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <p className="mb-4">Code NSF : 326t - Programmation, mise en place</p>
             <p>Stage non rémunéré du 03/09/2025 au 28/10/2025</p>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Contacts</h3>
             <div className="flex items-start mb-2">
@@ -30,21 +30,21 @@ const Footer: React.FC = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Liens rapides</h3>
             <ul>
-              <li className="mb-2 hover:text-blue-300">
+              <li className="mb-2 hover:text-green-300">
                 <a href="https://pf.vos-competences.com/apprenant/default.php" target="_blank" rel="noopener noreferrer">
                   Plateforme de formation
                 </a>
               </li>
-              <li className="mb-2 hover:text-blue-300">
+              <li className="mb-2 hover:text-green-300">
                 <a href="https://sifp2-stagiaire-prod.bourgognefranchecomte.fr/Stagiaires/Portail/Menu.aspx" target="_blank" rel="noopener noreferrer">
                   Plateforme des stagiaires
                 </a>
               </li>
-              <li className="hover:text-blue-300">
+              <li className="hover:text-green-300">
                 <a href="https://pf.vos-competences.com/apprenant/dossier_partage/php/partage_dossiers.php?guid_dossier_selectionne=356340DA99B0393F6AA68733BFC9BD5ECF09" target="_blank" rel="noopener noreferrer">
                   Dossiers partagés
                 </a>
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-4 border-t border-gray-700 text-center text-gray-400">
           <p>© 2025 Formation OnlineFormaPro - Tous droits réservés</p>
         </div>

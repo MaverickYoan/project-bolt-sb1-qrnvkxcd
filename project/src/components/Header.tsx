@@ -4,22 +4,22 @@ import { BookOpen, Home, Info, Layers, Link as LinkIcon, Phone } from 'lucide-re
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-blue-800 text-white shadow-md">
+    <header className="bg-green-800 text-white shadow-md">
       <div className="container mx-auto px-4 py-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <BookOpen size={36} className="mr-3" />
             <h1 className="text-2xl font-bold">Formation OnlineFormaPro</h1>
           </div>
-          
+
           <nav className="w-full md:w-auto">
             <ul className="flex flex-wrap justify-center md:justify-end gap-4 md:gap-8">
               <li>
-                <NavLink 
-                  to="/" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "flex items-center border-b-2 border-white py-1 font-medium" 
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center border-b-2 border-white py-1 font-medium"
                       : "flex items-center py-1 hover:border-b-2 hover:border-white transition-all"
                   }
                 >
@@ -27,11 +27,11 @@ const Header: React.FC = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/certification" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "flex items-center border-b-2 border-white py-1 font-medium" 
+                <NavLink
+                  to="/certification"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center border-b-2 border-white py-1 font-medium"
                       : "flex items-center py-1 hover:border-b-2 hover:border-white transition-all"
                   }
                 >
@@ -39,11 +39,11 @@ const Header: React.FC = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/modules" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "flex items-center border-b-2 border-white py-1 font-medium" 
+                <NavLink
+                  to="/modules"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center border-b-2 border-white py-1 font-medium"
                       : "flex items-center py-1 hover:border-b-2 hover:border-white transition-all"
                   }
                 >
@@ -51,11 +51,11 @@ const Header: React.FC = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/resources" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "flex items-center border-b-2 border-white py-1 font-medium" 
+                <NavLink
+                  to="/resources"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center border-b-2 border-white py-1 font-medium"
                       : "flex items-center py-1 hover:border-b-2 hover:border-white transition-all"
                   }
                 >
@@ -63,11 +63,11 @@ const Header: React.FC = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink 
-                  to="/contact" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "flex items-center border-b-2 border-white py-1 font-medium" 
+                <NavLink
+                  to="/contact"
+                  className={({ isActive }) =>
+                    isActive
+                      ? "flex items-center border-b-2 border-white py-1 font-medium"
                       : "flex items-center py-1 hover:border-b-2 hover:border-white transition-all"
                   }
                 >
